@@ -11,17 +11,19 @@ const Branches = () => {
             <div className="d-flex flex-column h-100 shadow-sm rounded-3 overflow-hidden">
               <iframe
                 className="d-block h-100"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5020.057277316842!2d-122.40737351959179!3d37.73986147046842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd5ce6be90058bc85!2sOur%20Planet%20Recycling%20S.F.!5e0!3m2!1sen!2sua!4v1653946944869!5m2!1sen!2sua"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.535854634705!2d77.410372!3d28.5009738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce974eb7401e1:0x586d962637bc9c37!2sInfrabyte%20Technology!5e0!3m2!1sen!2sin!4v1705060000000"
                 style={{ border: 0, minHeight: '300px' }}
                 allowFullScreen
                 loading="lazy"
-                title="Map"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Infrabyte Technology Location"
               ></iframe>
             </div>
           </Col>
 
           <Col lg={{ span: 5, offset: 1 }}>
-            <h2 className="h4 mb-4">Medical Center 1</h2>
+            <h1 className='h2 mb-4'>Our Differnt Locations</h1>
+            <h2 className="h4 mb-4">Location 1</h2>
             <ul className="list-unstyled pb-2 pb-lg-0 mb-4 mb-lg-5">
               <li className="d-flex pb-1 mb-2">
                 <IconifyIcon
@@ -29,7 +31,8 @@ const Branches = () => {
                   className="text-primary fs-xl me-2"
                   style={{ marginTop: '.125rem' }}
                 />
-                445 Bayshor Blvd, San Francisco, CA 94124
+                Reg Add: Plot No 42, Khasra No 14/14, <br/>
+                Street 2, Nathu Colony, Delhi 110084
               </li>
               <li className="d-flex pb-1 mb-2">
                 <IconifyIcon
@@ -37,7 +40,7 @@ const Branches = () => {
                   className="text-primary fs-xl me-2"
                   style={{ marginTop: '.125rem' }}
                 />
-                (406) 555-0120
+                +91 73036 11145
               </li>
               <li className="d-flex">
                 <IconifyIcon
@@ -46,14 +49,12 @@ const Branches = () => {
                   style={{ marginTop: '.125rem' }}
                 />
                 <div>
-                  <strong className="text-nav">Mon - Fri</strong>: 9:00 am - 22:00 am
-                  <br />
-                  <strong className="text-nav">Sat - Sun</strong>: 9:00 am - 20:00 am
+                  <strong className="text-nav">Mon - Fri</strong>: 09:30 AM - 06:30 PM
                 </div>
               </li>
             </ul>
 
-            <h2 className="h4 mb-4">Medical Center 2</h2>
+            <h2 className="h4 mb-4">Location 2</h2>
             <ul className="list-unstyled pb-2 pb-lg-0 mb-4 mb-lg-5">
               <li className="d-flex pb-1 mb-2">
                 <IconifyIcon
@@ -61,7 +62,8 @@ const Branches = () => {
                   className="text-primary fs-xl me-2"
                   style={{ marginTop: '.125rem' }}
                 />
-                2464 Royal Ln. Mesa, New Jersey 45463
+                8 Square Zen, Plot No.-9, Sector 142 <br/>
+                Noida, Uttar Pradesh 201305
               </li>
               <li className="d-flex pb-1 mb-2">
                 <IconifyIcon
@@ -69,7 +71,7 @@ const Branches = () => {
                   className="text-primary fs-xl me-2"
                   style={{ marginTop: '.125rem' }}
                 />
-                (406) 544-0123
+                +44 74071 31797
               </li>
               <li className="d-flex">
                 <IconifyIcon
@@ -78,9 +80,7 @@ const Branches = () => {
                   style={{ marginTop: '.125rem' }}
                 />
                 <div>
-                  <strong className="text-nav">Mon - Fri</strong>: 9:00 am - 22:00 am
-                  <br />
-                  <strong className="text-nav">Sat - Sun</strong>: 9:00 am - 20:00 am
+                  <strong className="text-nav">Mon - Fri</strong>: 09:30 AM - 06:30 PM
                 </div>
               </li>
             </ul>

@@ -50,7 +50,7 @@ const Contact = () => {
                 <div className="ps-3 ps-sm-4">
                   <h2 className="h4 pb-1 mb-2">Careers</h2>
                   <p className="mb-2">
-                    Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.
+                    Our goal is to make that process as easy as possible for you and to create a work environment that’s satisfying. Start your journey with us by browsing available jobs.
                   </p>
                   <Button variant="link" size="lg" className="px-0">
                     Send an application
@@ -65,7 +65,7 @@ const Contact = () => {
             <Card className="border-light shadow-lg py-3 p-sm-4 p-md-5 position-relative">
               <div className="bg-dark position-absolute top-0 start-0 w-100 h-100 rounded-3 d-none d-dark-mode-block"></div>
               <Card.Body className="position-relative zindex-2">
-                <h2 className="card-title pb-3 mb-4">Get Online Consultation</h2>
+                <h2 className="card-title pb-3 mb-4">Submit Your Profile</h2>
 
                 <Form className="row g-4 needs-validation" noValidate>
                   <Col xs={12}>
@@ -85,59 +85,59 @@ const Contact = () => {
                   </Col>
 
                   <Col xs={12}>
-                    <Form.Label htmlFor="specialist" className="form-label fs-base">
-                      Specialist
+                    <Form.Label htmlFor="domain" className="form-label fs-base">
+                      Domain
                     </Form.Label>
                     <Form.Select
-                      id="specialist"
+                      id="domain"
                       required
                       className="form-select-lg"
                       defaultValue=""
                     >
                       <option value="" disabled>
-                        Choose a specialist
+                        Choose a domain
                       </option>
-                      <option value="Therapist">Therapist</option>
-                      <option value="Dentist">Dentist</option>
-                      <option value="Cardiologist">Cardiologist</option>
-                      <option value="Pediatrician">Pediatrician</option>
-                      <option value="Gynecologist">Gynecologist</option>
-                      <option value="Surgeon">Surgeon</option>
+                      <option value="Engineering">Engineering</option>
+                      <option value="Management">Management</option>
+                      <option value="Consulting">Consulting</option>
+                      <option value="Operations">Operations</option>
+                      <option value="Development">Development</option>
+                      <option value="Sales & Marketing">Sales & Marketing</option>
                     </Form.Select>
-                    <div className="invalid-feedback">Choose a specialist from the list!</div>
+                    <div className="invalid-feedback">Choose a domain from the list!</div>
                   </Col>
 
                   <Col sm={6}>
-                    <Form.Label htmlFor="date" className="form-label fs-base">
-                      Date
+                    <Form.Label htmlFor="experience" className="form-label fs-base">
+                      Experience in Years
                     </Form.Label>
                     <Form.Control
                       type="text"
-                      id="date"
-                      placeholder="mm/dd"
+                      id="experience"
+                      // placeholder="mm/dd"
                       required
                       className="form-control-lg"
                     />
-                    <div className="invalid-feedback">Enter a date!</div>
+                    <div className="invalid-feedback">Enter Experience</div>
                   </Col>
 
                   <Col sm={6}>
-                    <Form.Label htmlFor="time" className="form-label fs-base">
-                      Time
+                    <Form.Label htmlFor="expected" className="form-label fs-base">
+                      Expected Salary
                     </Form.Label>
                     <Form.Control
                       type="text"
-                      id="time"
-                      placeholder="hh:mm"
+                      id="expected"
+                      // placeholder="hh:mm"
                       required
                       className="form-control-lg"
                     />
-                    <div className="invalid-feedback">Enter a time!</div>
+                    <div className="invalid-feedback">Enter Expected Salary</div>
                   </Col>
 
                   <Col xs={12} className="pt-2 pt-sm-3">
                     <Button type="submit" size="lg" className="btn-primary w-100 w-sm-auto">
-                      Make an appointment
+                      Submit
                     </Button>
                   </Col>
                 </Form>
