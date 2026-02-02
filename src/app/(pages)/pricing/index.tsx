@@ -18,7 +18,7 @@ const Index = () => {
       <Navbar
         Headerclass="header navbar navbar-expand-lg navbar-dark bg-dark navbar-sticky"
         headerSticky="navbar-stuck"
-        isNavDark={true}
+        // isNavDark={true}
       />
       <section className="bg-dark py-4" data-bs-theme="dark">
         <Container className="pb-2 py-lg-3">
