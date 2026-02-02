@@ -18,7 +18,6 @@ const Index = () => {
       <Navbar
         Headerclass="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky"
         headerSticky="navbar-stuck"
-        // isNavDark={true}
       />
       <Hero />
       <Brand />

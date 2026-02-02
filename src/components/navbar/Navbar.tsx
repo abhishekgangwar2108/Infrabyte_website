@@ -34,7 +34,6 @@ type DropdownColumn2 = DropdownSection[];
 type NavClass = {
   Headerclass?: string;
   headerSticky?: string;
-  // isNavDark?: boolean;
 };
 
 const isParentActive = (links: { href: string }[], pathname: string) => {
@@ -44,7 +43,6 @@ const isParentActive = (links: { href: string }[], pathname: string) => {
 const Navbar = ({
   Headerclass = 'header navbar navbar-expand-lg bg-light shadow-sm',
   headerSticky,
-  // isNavDark,
 }: NavClass) => {
   const [isSticky, setIsSticky] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
@@ -352,7 +350,6 @@ const Navbar = ({
           </div>
         </Offcanvas>
 
-        {/* <ThemeToggle themeToggle={isNavDark ?? false} /> */}
         <button
           type="button"
           className="navbar-toggler"
